@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: bms-container
-        image: vimaldevops50/bms:v3  # Replace with your Docker image
+        image: vimaldevops50/bms:v4  # Replace with your Docker image
         ports:
         - containerPort: 3000  # Replace with the port your app runs on
