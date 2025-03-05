@@ -10,7 +10,7 @@ pipeline {
 
     environment {
         SCANNER_HOME = tool 'sonar-scanner'
-        DOCKER_IMAGE = 'vimal/bms:latest'
+        DOCKER_IMAGE = 'vimaldevops50/bms:v2'
         EKS_CLUSTER_NAME = 'vimal-eks'
         AWS_REGION = 'us-east-1'
     }
